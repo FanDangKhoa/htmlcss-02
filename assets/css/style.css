@@ -37,6 +37,12 @@ a {
 .btn:hover {
   opacity: 0.9;
 }
+
+.heading {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
 /* Header */
 .header {
   background: #fffcf4;
@@ -161,10 +167,7 @@ a {
   padding: 64px 0 0 130px;
 }
 .hero .heading {
-  color: #171100;
-  font-family: var(--font-heading);
   font-size: 58px;
-  font-weight: 700;
   line-height: 68px; /* 117.241% */
   letter-spacing: -1.16px;
 }
@@ -235,10 +238,7 @@ a {
 }
 
 .popular .heading {
-  color: #171100;
-  font-family: var(--font-heading);
   font-size: 3.8rem;
-  font-weight: 700;
   line-height: 48px; /* 126.316% */
   letter-spacing: -0.76px;
   margin-bottom: 16px;
@@ -339,4 +339,51 @@ a {
 }
 .popular .btn-first-price {
   background-color: var(--primary);
+}
+
+/* Feedback */
+.feedback {
+  background: #2e2100;
+}
+.feedback .body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feedback .feedback-media-left {
+  margin: 96px 135px;
+  width: 14%;
+}
+.feedback .feedback-avt {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.feedback .name-feedback {
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 24px;
+  line-height: 34px; /* 141.667% */
+}
+.feedback .desc-feedback {
+  color: #bfbcb2;
+  font-size: 14px;
+  line-height: 1.85; /* 185.714% */
+  margin: 4px 0 28px;
+}
+.feedback .feedback-text-right {
+  display: flex;
+  width: 66%;
+  top: 96px;
+}
+
+.feedback .feedback-text-right p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px; /* 153.846% */
+  width: 740px;
 }
