@@ -42,14 +42,6 @@ a {
   font-family: var(--font-heading);
   font-weight: 700;
 }
-.desc {
-  color: #5f5b53;
-  font-family: Poppins;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 1.67; /* 166.667% */
-}
-
 /* Header */
 .header {
   background: #fffcf4;
@@ -174,6 +166,7 @@ a {
   padding: 64px 0 0 130px;
 }
 .hero .heading {
+  font-size: 58px;
   line-height: 68px; /* 117.241% */
   letter-spacing: -1.16px;
   font-size: 58px;
@@ -342,4 +335,51 @@ a {
 }
 .popular .product-price .btn-price:hover {
   background-color: var(--primary);
+}
+
+/* Feedback */
+.feedback {
+  background: #2e2100;
+}
+.feedback .body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feedback .feedback-media-left {
+  margin: 96px 135px;
+  width: 14%;
+}
+.feedback .feedback-avt {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.feedback .name-feedback {
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 24px;
+  line-height: 34px; /* 141.667% */
+}
+.feedback .desc-feedback {
+  color: #bfbcb2;
+  font-size: 14px;
+  line-height: 1.85; /* 185.714% */
+  margin: 4px 0 28px;
+}
+.feedback .feedback-text-right {
+  display: flex;
+  width: 66%;
+  top: 96px;
+}
+
+.feedback .feedback-text-right p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px; /* 153.846% */
+  width: 740px;
 }
