@@ -42,6 +42,19 @@ a {
   font-family: var(--font-heading);
   font-weight: 700;
 }
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
+.break-all {
+  word-break: break-all;
+}
+
 /* Header */
 .header {
   background: #fffcf4;
@@ -304,7 +317,7 @@ a {
 
 .popular .product-heading a {
   color: #171100;
-  font-family: Poppins;
+  padding-right: 6px;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.7; /* 166.667% */
